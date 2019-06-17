@@ -23,3 +23,6 @@ function sayHello(a) {
         return "Hello, " + a +"!"
     }
 }
+function isFive(a) {
+    return parseInt(a) === 5
+}
