@@ -11,4 +11,13 @@ function add(num1, num2) {
     }
 }
 function sayHello(a) {
+    if (a === "Alex") {
+        return "Hello, Alex!"
+    } else if (a === "Pat") {
+        return "Hello, Pat!"
+    } else if (a === "Jane") {
+        return "Hello, Jane!"
+    } else {
+        return "Hello, " + a +"!"
+    }
 }
