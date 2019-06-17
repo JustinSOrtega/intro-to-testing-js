@@ -17,6 +17,8 @@ function sayHello(a) {
         return "Hello, Pat!"
     } else if (a === "Jane") {
         return "Hello, Jane!"
+    } else if (a === undefined || true || false) {
+        return "Hello, World!"
     } else {
         return "Hello, " + a +"!"
     }
