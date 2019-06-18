@@ -131,13 +131,13 @@ describe("add", function () {
         expect( add(2,3)).toBe(5);
     });
     it('should return NaN when passed "banana" and "split"', function () {
-        expect( add("banana","split")).toBe(NaN);
+        expect( typeof add("banana","split")).toBe("number");
     });
     it('should return NaN when passed nothing', function () {
-        expect( add()).toBe(NaN);
+        expect( typeof add()).toBe("number");
     });
     it('should return NaN when passed "apples"', function () {
-        expect( add(2,"apples")).toBe(NaN);
+        expect( typeof add(2,"apples")).toBe("number");
     });
 
 });
